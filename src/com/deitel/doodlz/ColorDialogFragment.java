@@ -81,7 +81,6 @@ public class ColorDialogFragment extends DialogFragment
   	            {
   	              doodleView.setDrawingColor(color);
   	               doodleView.background(color);
-  	             DoodleFragment.setImageViewBackgroundColor(color);
   	              	  DoodleFragment.setImageFlag();
   	            } 
   	         } 

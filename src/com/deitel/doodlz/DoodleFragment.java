@@ -234,7 +234,7 @@ private static final int RESULT_LOAD_IMAGE = 1;
            String picturePath = cursor.getString(columnIndex);
            cursor.close();
            
-           ImageView imageview = (ImageView) view.findViewById(R.id.importImage);
+           ImageView imageview = (ImageView) view.findViewById(R.id.imageView);
            imageview.setImageBitmap(BitmapFactory.decodeFile(picturePath));
        }
    }
